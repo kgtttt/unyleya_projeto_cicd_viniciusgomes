@@ -36,8 +36,6 @@ steps:
   inputs:
     restoreSolution: '$(solution)'
 
-
-- task: SonarQubePrepare@4
   inputs:
     SonarQube: 'Sonarqube Osanam Azure'
     scannerMode: 'CLI'
@@ -61,9 +59,7 @@ steps:
     platform: '$(buildPlatform)'
     configuration: '$(buildConfiguration)'
 
-- task: SonarQubeAnalyze@4
 
-- task: SonarQubePublish@4
   inputs:
     pollingTimeoutSec: '300'
 
