@@ -1,0 +1,25 @@
+#Connection Azure
+
+variable "client_id" {
+type = string
+default = "b2924be1-537a-4017-a1f3-c355d7376a66"
+
+}
+
+variable "client_secret" {
+type = string
+default = "834d5f63-915d-49bc-8bf7-289e26f6c9f1"
+
+}
+
+variable "tenant_id" {
+type = string
+default = "f8cdef31-a31e-4b4a-93e4-5f571e91255a"
+
+}
+
+variable "subscription_id" {
+type = string
+default = ""
+
+}
